@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ai/gpt-oss:20B'
+          default: 'node:20-alpine'
 
 # env:
 #   REGISTRY: ghcr.io
